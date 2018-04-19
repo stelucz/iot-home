@@ -11,8 +11,8 @@ Basic required fetures of system:
 * control of outdoor lights 
 
 Timeline:
-* 17. 04. 2018 - ordered board with ESP-8266 for PoC plus some sensors
-* 17. 04. 2018 - discovered wemos d1 mini, robophery, home-assistant, mqtt
+* 17.04.2018 - ordered board with ESP-8266 for PoC plus some sensors
+* 17.04.2018 - discovered wemos d1 mini, robophery, home-assistant, mqtt
 
 Things to evaluate:
 * micropython for use in boards
@@ -25,4 +25,5 @@ Things to evaluate:
 ## High level overview
 
 IoT boards connected to wireless network. Boards with different sensors are sending data via message queue where data are gathered by IoT dashboard and python code which fills database. IoT dashboard and python code at server can communicate with other python code located at RaspberryPi which is controlling outdoor lights, garage and fence gate. Whole "system" is ilustrated on image below. 
+
 ![Overview](images/overview.png "Overview")
